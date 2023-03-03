@@ -103,10 +103,6 @@ hr {
   }
 }
 
-hr {
-  opacity: 1 !important;
-}
-
 .center {
   display: flex;
   align-items: center;
