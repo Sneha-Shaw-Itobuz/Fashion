@@ -8,3 +8,16 @@ body {
   max-width: 1920px;
   margin: auto;
 }
+
+.follow-us .swiper-slide {
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.follow-us .swiper-slide a img {
+  width: 5px !important;
+}
