@@ -21,87 +21,210 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
   </head>
+
   <body>
-    <!-- top section starts -->
-    <section
-      class="top-section position-relative max-container bg-black w-100 d-flex flex-column justify-content-center align-items-center"
-    >
-      <div
-        class="top-section-images w-100 d-flex justify-content-between align-items-center"
+        <!-- top section starts -->
+        <section
+        class="top-section position-relative max-container bg-black w-100 d-flex flex-column justify-content-center align-items-center"
       >
-        <div class="swiper mySwiper topSwiper w-100">
-          <div
-            class="swiper-wrapper d-flex justify-content-between align-items-center"
-          >
+        <div
+          class="top-section-images w-100 d-flex justify-content-between align-items-center"
+        >
+          <div class="swiper mySwiper topSwiper w-100">
             <div
-              class="swiper-slide d-flex justify-content-between align-items-center"
+              class="swiper-wrapper d-flex justify-content-between align-items-center"
             >
-              <div class="img-container">
-                <img
-                  src="./images/banner/couple.png"
-                  alt=""
-                  class="img-fluid w-100"
-                />
+              <div
+                class="swiper-slide d-flex justify-content-between align-items-center"
+              >
+                <div class="img-container">
+                  <img
+                    src="./images/banner/couple.png"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-between align-items-center"
+              >
+                <div class="img-container">
+                  <img
+                    src="./images/banner/single-lady.png"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
               </div>
             </div>
-            <div
-              class="swiper-slide d-flex justify-content-between align-items-center"
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div
+          class="top-section-bottom d-none d-sm-flex justify-content-between w-100 px-md-5"
+        >
+          <p>Collections</p>
+          <p>Similar projects</p>
+          <p>Send the application</p>
+        </div>
+        <div
+          class="top-section-absolute position-absolute w-100"
+          style="left: 10%; top: 20%"
+        >
+          <p class="d-none d-md-block">
+            Fashion design <br />
+            2022
+          </p>
+          <h2 class="mt-5 d-none d-md-block m-0 w-50">
+            Elegant
+            <br />
+            <span
+              class="d-flex justify-content-start w-25 align-items-center mt-2"
+              ><hr class="w-25" />
+              exceptional</span
             >
-              <div class="img-container">
-                <img
-                  src="./images/banner/single-lady.png"
-                  alt=""
-                  class="img-fluid w-100"
-                />
+          </h2>
+          <p
+            class="position-absolute text-opacity d-none d-md-block"
+            style="left: 15%; top: 200%"
+          >
+            Jackets <br />Countoured Black <br />
+            Collections
+          </p>
+          <p
+            class="w-25 position-absolute text-opacity d-none d-md-block"
+            style="left: 40%; top: 250%"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form,
+          </p>
+          <h2 class="position-absolute text-opacity ">NOW</h2>
+        </div>
+      </section>
+      <!-- top section ends -->
+    <footer class="subscribe py-5 flex-column font center">
+      <div class="sub-heading center px-3  pb-5   ">
+        <h2 class="text-center">
+          Subscribe Our Newsletter
+          <sup><img src="./images/footer/star-icon.svg" alt="" /></sup>
+        </h2>
+        <p class="text-center p-3">
+          "But I must explain to you how all this mistaken idea <br />
+          of denouncing pleasure and praising.
+        </p>
+        <form class="d-flex w-100">
+          <input
+            id="newsletter"
+            type="text"
+            class="form-control"
+            placeholder="Email address"
+          />
+          <button class="sub-button py-3" type="button">Subscribe</button>
+        </form>
+      </div>
+      <hr class="footer-line w-100" />
+      <div
+        class="container pt-5 d-flex justify-content-between align-items-center align-items-md-start flex-column flex-md-row text-center text-sm-start"
+      >
+        <div class="name">
+          <h5 class="p-2 fs-1">nuvosa</h5>
+          <h6 class="p-2 mt-5 mb-3">nuvosa@gmail.com</h6>
+          <ul class="social-icon list-unstyled d-flex py-2">
+            <li class="px-4 py-3 rounded-circle border m-1">
+              <a
+                href="
+              #"
+                target="_blank"
+                class="nav-link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="px-4 py-3 rounded-circle border m-1">
+              <a
+                href="
+              #"
+                target="_blank"
+                class="nav-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="px-4 py-3 rounded-circle border m-1">
+              <a
+                href="
+              #"
+                target="_blank"
+                class="nav-link"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="what-we-do">
+          <h5 class="py-3 fw-bold">What we do</h5>
+          <ul class="list-unstyled footer-color ">
+            <li><a href="#" class="nav-link">-Home</a></li>
+            <li><a href="#" class="nav-link">-Shop</a></li>
+            <li><a href="#" class="nav-link">-New Arrivals</a></li>
+            <li><a href="#" class="nav-link">-Categories</a></li>
+          </ul>
+        </div>
+        <div class="quick-link">
+          <h5 class="py-3 fw-bold">Quick Link</h5>
+          <ul class="list-unstyled footer-color">
+            <li><a href="#" class="nav-link">-Help & Support</a></li>
+            <li><a href="#" class="nav-link">-FAQ</a></li>
+            <li><a href="#" class="nav-link">-Direct Contact</a></li>
+            <li><a href="#" class="nav-link">+66889944226</a></li>
+          </ul>
+        </div>
+
+        <div class="instgram-post">
+          <h5 class="py-3 fw-bold text-center">Instagram post</h5>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <a href="#
+                " class="nav-link"> <img
+                src="./images/footer/lower-pant.png"
+                alt=""
+                class="w-100"
+              />
+            </a>
+                
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-6">
+                <a href="#
+                " class="nav-link">  <img
+                src="./images/footer/lower-couple.png"
+                alt=""
+                class="w-100"
+              /></a>
+              
+              </div>
+
+              <div class="col-6">
+                <a href="#" class="nav-link">
+                  <img
+                    src="./images/footer/lower-bundle-cloths.png"
+                    alt=""
+                    class="w-100"
+                  />
+                </a>
               </div>
             </div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
       </div>
-      <div
-        class="top-section-bottom d-none d-sm-flex justify-content-between w-100 px-md-5"
-      >
-        <p>Collections</p>
-        <p>Similar projects</p>
-        <p>Send the application</p>
-      </div>
-      <div
-        class="top-section-absolute position-absolute w-100"
-        style="left: 10%; top: 20%"
-      >
-        <p class="d-none d-md-block">
-          Fashion design <br />
-          2022
-        </p>
-        <h2 class="mt-5 d-none d-md-block m-0 w-50">
-          Elegant
-          <br />
-          <span
-            class="d-flex justify-content-start w-25 align-items-center mt-2"
-            ><hr class="w-25" />
-            exceptional</span
-          >
-        </h2>
-        <p
-          class="position-absolute text-opacity d-none d-md-block"
-          style="left: 15%; top: 200%"
-        >
-          Jackets <br />Countoured Black <br />
-          Collections
-        </p>
-        <p
-          class="w-25 position-absolute text-opacity d-none d-md-block"
-          style="left: 40%; top: 250%"
-        >
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form,
-        </p>
-        <h2 class="position-absolute text-opacity ">NOW</h2>
-      </div>
-    </section>
-    <!-- top section ends -->
+      <hr class="grey-line">
+      <h6 class="Copyright text-center footer-color">
+        Copyright © 2023 nuvosa, All rights reserved.
+      </h6>
+
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
